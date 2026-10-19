@@ -1,4 +1,3 @@
-# Atlas-Terra-Contributing-
 # 🌐 Terra
 
 **EN** An open portal to the planet: an interactive map (street, terrain and live NASA satellite layers, live ISS position), 39 little-known places across all continents and oceans, continent statistics, and curated links to open-source maps, 3D globes, free APIs, ISS/astronaut imagery and kids' resources. Available in FR · EN · DE · ZH · RU.
