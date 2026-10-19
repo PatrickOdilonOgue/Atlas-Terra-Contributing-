@@ -1,0 +1,48 @@
+{
+ "name": "Deutsch",
+ "title": "Terra",
+ "sub": "Ein offenes Portal zum Planeten: Karten, Satelliten, 3D, kostenlose APIs und wenig bekannte Regionen, zum Lernen und für die Datenanalyse.",
+ "tabs": {
+  "map": "Karte",
+  "places": "Seltene Regionen",
+  "continents": "Kontinente",
+  "maps": "Karten & Satelliten",
+  "3d": "3D",
+  "api": "Daten & APIs",
+  "space": "ISS & Weltraum",
+  "kids": "Kinder"
+ },
+ "layers": {
+  "osm": "Straßenkarte",
+  "topo": "Relief",
+  "sat": "Satellit (NASA, vor 2 Tagen)"
+ },
+ "all": "Alle",
+ "search": "Ort suchen",
+ "groups": {
+  "atl": "Atlantik",
+  "ind": "Indischer Ozean"
+ },
+ "weather": "Aktuelles Wetter",
+ "openin": "Öffnen in",
+ "coords": "Koordinaten",
+ "area": "Fläche",
+ "countries": "Länder",
+ "pop": "Bevölkerung",
+ "high": "Höchster Punkt",
+ "low": "Tiefster Punkt",
+ "seasonal": "1–5 Tsd. (Forschende)",
+ "mil": "Mio. km²",
+ "bn": "Mrd.",
+ "csv": "CSV herunterladen",
+ "json": "JSON-Daten",
+ "iss": "ISS jetzt",
+ "mys": "Rätselort",
+ "mysIntro": "Errate den Ort anhand des Hinweises!",
+ "reveal": "Aufdecken",
+ "next": "Anderer Ort",
+ "seemap": "Auf der Karte ansehen",
+ "family": "Weitere Atlanten des Projekts",
+ "lic": "Lizenz",
+ "foot": "Ungefähre Werte. Karten © OpenStreetMap-Mitwirkende, OpenTopoMap (CC-BY-SA), NASA GIBS. Wetter: Open-Meteo.com. Links prüfen mit „node scripts/validate.js --links“. Daten CC BY 4.0, Code MIT."
+}

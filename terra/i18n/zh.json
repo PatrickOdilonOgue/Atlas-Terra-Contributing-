@@ -1,0 +1,48 @@
+{
+ "name": "中文",
+ "title": "Terra",
+ "sub": "通往地球的开放门户：地图、卫星、3D、免费API与鲜为人知的地区，用于学习和数据分析。",
+ "tabs": {
+  "map": "地图",
+  "places": "稀有地区",
+  "continents": "大洲",
+  "maps": "地图与卫星",
+  "3d": "3D",
+  "api": "数据与API",
+  "space": "国际空间站",
+  "kids": "儿童"
+ },
+ "layers": {
+  "osm": "街道地图",
+  "topo": "地形",
+  "sat": "卫星（NASA，2天前）"
+ },
+ "all": "全部",
+ "search": "搜索地点",
+ "groups": {
+  "atl": "大西洋",
+  "ind": "印度洋"
+ },
+ "weather": "实时天气",
+ "openin": "打开于",
+ "coords": "坐标",
+ "area": "面积",
+ "countries": "国家数",
+ "pop": "人口",
+ "high": "最高点",
+ "low": "最低点",
+ "seasonal": "1–5千（科研人员）",
+ "mil": "百万平方公里",
+ "bn": "十亿",
+ "csv": "下载CSV",
+ "json": "JSON数据",
+ "iss": "国际空间站当前位置",
+ "mys": "神秘地点",
+ "mysIntro": "根据线索猜地点！",
+ "reveal": "揭晓",
+ "next": "换一个",
+ "seemap": "在地图上查看",
+ "family": "本项目的其他地图集",
+ "lic": "许可证",
+ "foot": "数值为近似值。底图 © OpenStreetMap 贡献者、OpenTopoMap（CC-BY-SA）、NASA GIBS。天气：Open-Meteo.com。可用“node scripts/validate.js --links”检查链接。数据 CC BY 4.0，代码 MIT。"
+}

@@ -1,0 +1,48 @@
+{
+ "name": "Français",
+ "title": "Terra",
+ "sub": "Portail ouvert sur la planète : cartes, satellites, 3D, API gratuites et régions méconnues, pour apprendre et pour analyser les données.",
+ "tabs": {
+  "map": "Carte",
+  "places": "Régions rares",
+  "continents": "Continents",
+  "maps": "Cartes & satellites",
+  "3d": "3D",
+  "api": "Données & API",
+  "space": "ISS & espace",
+  "kids": "Enfants"
+ },
+ "layers": {
+  "osm": "Plan",
+  "topo": "Relief",
+  "sat": "Satellite (NASA, il y a 2 jours)"
+ },
+ "all": "Toutes",
+ "search": "Rechercher un lieu",
+ "groups": {
+  "atl": "Atlantique",
+  "ind": "Océan Indien"
+ },
+ "weather": "Météo en direct",
+ "openin": "Ouvrir dans",
+ "coords": "Coordonnées",
+ "area": "Superficie",
+ "countries": "Pays",
+ "pop": "Population",
+ "high": "Point culminant",
+ "low": "Point le plus bas",
+ "seasonal": "1–5 k (scientifiques)",
+ "mil": "M km²",
+ "bn": "Md",
+ "csv": "Télécharger en CSV",
+ "json": "Données JSON",
+ "iss": "ISS en ce moment",
+ "mys": "Lieu mystère",
+ "mysIntro": "Devine l'endroit à partir de l'indice !",
+ "reveal": "Révéler",
+ "next": "Autre lieu",
+ "seemap": "Voir sur la carte",
+ "family": "Autres atlas du projet",
+ "lic": "Licence",
+ "foot": "Valeurs approximatives. Fonds de carte © contributeurs OpenStreetMap, OpenTopoMap (CC-BY-SA), NASA GIBS. Météo : Open-Meteo.com. Vérifiez les liens avec « node scripts/validate.js --links ». Données CC BY 4.0, code MIT."
+}

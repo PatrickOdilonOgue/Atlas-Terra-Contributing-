@@ -1,0 +1,48 @@
+{
+ "name": "English",
+ "title": "Terra",
+ "sub": "An open portal to the planet: maps, satellites, 3D, free APIs and little-known regions, for learning and for data analysis.",
+ "tabs": {
+  "map": "Map",
+  "places": "Rare regions",
+  "continents": "Continents",
+  "maps": "Maps & satellites",
+  "3d": "3D",
+  "api": "Data & APIs",
+  "space": "ISS & space",
+  "kids": "Kids"
+ },
+ "layers": {
+  "osm": "Street map",
+  "topo": "Terrain",
+  "sat": "Satellite (NASA, 2 days ago)"
+ },
+ "all": "All",
+ "search": "Search a place",
+ "groups": {
+  "atl": "Atlantic",
+  "ind": "Indian Ocean"
+ },
+ "weather": "Live weather",
+ "openin": "Open in",
+ "coords": "Coordinates",
+ "area": "Area",
+ "countries": "Countries",
+ "pop": "Population",
+ "high": "Highest point",
+ "low": "Lowest point",
+ "seasonal": "1–5 k (scientists)",
+ "mil": "M km²",
+ "bn": "bn",
+ "csv": "Download CSV",
+ "json": "JSON data",
+ "iss": "ISS right now",
+ "mys": "Mystery place",
+ "mysIntro": "Guess the place from the clue!",
+ "reveal": "Reveal",
+ "next": "Another place",
+ "seemap": "See on the map",
+ "family": "Other atlases in this project",
+ "lic": "License",
+ "foot": "Approximate values. Base maps © OpenStreetMap contributors, OpenTopoMap (CC-BY-SA), NASA GIBS. Weather: Open-Meteo.com. Check links with 'node scripts/validate.js --links'. Data CC BY 4.0, code MIT."
+}
