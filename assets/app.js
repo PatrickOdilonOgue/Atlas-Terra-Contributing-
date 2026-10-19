@@ -3,10 +3,10 @@ const LANGS=["fr","en","de","zh","ru"],TABS=["map","places","continents","maps",
 const $=s=>document.querySelector(s),j=u=>fetch(u).then(r=>r.json());
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 let P,C,RS,T,lang,tab="map",grp="all",q="",map,mg,issM,cur;
-const M49={as:"142",af:"002",eu:"150",na:"003",sa:"005",oc:"009",an:"AQ"};
+const CG={"002":"af","142":"as","150":"eu","003":"na","005":"sa","009":"oc","AQ":"an"};
 const dn=(t,v)=>{try{return new Intl.DisplayNames([lang],{type:t}).of(v)||v}catch(e){return v}};
 const nf=(n,d=1)=>n.toLocaleString(lang,{maximumFractionDigits:d});
-const gname=g=>T.groups[g]||dn("region",M49[g]);
+const gname=g=>T.groups[g]||g;
 const pname=p=>{const n=p.iso?dn("region",p.iso.toUpperCase()):null;return n&&n!==p.iso.toUpperCase()?n:(p.name[lang]||p.name.en)};
 const fact=p=>p.fact[lang]||p.fact.en;
 const desc=r=>r.desc[lang]||r.desc.en;
@@ -80,7 +80,7 @@ function renderPlaces(){
 }
 function fillPlaces(){const g=$("#pg");g.innerHTML="";P.filter(p=>(grp==="all"||p.g===grp)&&(pname(p)+p.name.en).toLowerCase().includes(q)).forEach(p=>g.append(placeCard(p)))}
 function renderContinents(){
-  $("#t-continents").innerHTML=`<div class="grid">${C.map(c=>`<article class="c"><div class="bd"><div class="em">${c.emoji}</div><h3>${esc(dn("region",c.code))}</h3>
+  $("#t-continents").innerHTML=`<div class="grid">${C.map(c=>`<article class="c"><div class="bd"><div class="em">${c.emoji}</div><h3>${esc(gname(CG[c.code]))}</h3>
   <div class="g"><div><small>${T.area}</small>${nf(c.area)} ${T.mil}</div><div><small>${T.countries}</small>${c.countries}</div>
   <div><small>${T.pop}</small>${c.pop==null?T.seasonal:"~"+nf(c.pop,2)+" "+T.bn}</div><div></div>
   <div><small>${T.high}</small>${esc(c.high[0])}<br>${nf(c.high[1],0)} m</div><div><small>${T.low}</small>${esc(c.low[0])}<br>${nf(c.low[1],0)} m</div></div></div></article>`).join("")}</div>`;
