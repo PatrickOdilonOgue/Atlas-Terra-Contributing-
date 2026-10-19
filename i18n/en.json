@@ -21,7 +21,14 @@
  "search": "Search a place",
  "groups": {
   "atl": "Atlantic",
-  "ind": "Indian Ocean"
+  "ind": "Indian Ocean",
+  "af": "Africa",
+  "as": "Asia",
+  "eu": "Europe",
+  "na": "North America",
+  "sa": "South America",
+  "oc": "Oceania",
+  "an": "Antarctica"
  },
  "weather": "Live weather",
  "openin": "Open in",

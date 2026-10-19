@@ -21,7 +21,14 @@
  "search": "Rechercher un lieu",
  "groups": {
   "atl": "Atlantique",
-  "ind": "Océan Indien"
+  "ind": "Océan Indien",
+  "af": "Afrique",
+  "as": "Asie",
+  "eu": "Europe",
+  "na": "Amérique du Nord",
+  "sa": "Amérique du Sud",
+  "oc": "Océanie",
+  "an": "Antarctique"
  },
  "weather": "Météo en direct",
  "openin": "Ouvrir dans",

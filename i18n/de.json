@@ -21,7 +21,14 @@
  "search": "Ort suchen",
  "groups": {
   "atl": "Atlantik",
-  "ind": "Indischer Ozean"
+  "ind": "Indischer Ozean",
+  "af": "Afrika",
+  "as": "Asien",
+  "eu": "Europa",
+  "na": "Nordamerika",
+  "sa": "Südamerika",
+  "oc": "Ozeanien",
+  "an": "Antarktis"
  },
  "weather": "Aktuelles Wetter",
  "openin": "Öffnen in",
